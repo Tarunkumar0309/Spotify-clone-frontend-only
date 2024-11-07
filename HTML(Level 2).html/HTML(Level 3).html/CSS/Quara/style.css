@@ -1,0 +1,129 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+}
+
+/* element selector */
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+    
+}
+
+/* ID Selector */
+#login {
+    color:#000 ;
+    background-color: #fff;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* PQs1 - Chapter 2 */
+div[id="my id"] {
+    color: rgb(213, 227, 15);
+}
+
+/* Descendant selector */
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
+
+/*Adjacent Sibling Combinator */
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color:darkblue;
+}
+/* Child Combinator */
+div > input{
+    background-color:darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* Pseudo Class */
+button:hover {
+    background-color: black;
+    color: white;
+}
+/* Specificity -------> learn after some time*/ 
+h3:hover {
+    text-decoration: overline;
+}
+button:active {
+    background-color:hotpink; 
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked+ label{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+div:nth-of-type(4n) {
+    background-color: cornflowerblue;
+}
+h1::first-letter{
+    color:black;
+}
+
+input [type="password"] {
+    color: green;
+}
+/* Cascading and Specificity */
+
+h3{
+    background-color: rgb(230, 219, 206) !important;
+}
+h3{
+    background-color: blue;
+}
+
+/* Selector Specificity */
+
+h2{
+    background-color: yellow;
+}
+
+.myClass:hover{
+    color: blue;
+}
+/* id> class> element */
+/* more selectors > less selectors , more selector use is good than less selectors*/
+/* If specificity same---> we will check cascading */
+
+/* Inline Specificity- if we use inline specificity is more than other type of specificity   */
+
+/* We avoid inline specitficity as we cnaat change it if future] */

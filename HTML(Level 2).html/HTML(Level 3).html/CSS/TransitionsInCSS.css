@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+   width:100px;
+   background-color: #d5cb10e3;
+   /* transition-duration: 2s;
+   transition-delay: 1s; */
+   margin-top: 10px;
+   margin: 0 auto;
+   margin-top: 10px;
+   transition: margin-top 2s ease-in 0.2s;
+}
+div:hover{
+    /* background-color: black; */
+    margin-top: 400px;
+    background-color: pink;
+   
+}

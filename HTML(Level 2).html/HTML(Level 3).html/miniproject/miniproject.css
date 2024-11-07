@@ -1,0 +1,30 @@
+h1{
+    /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+/* .roboto-slab-<uniquifier> { */
+  font-family: "Roboto Slab", serif;
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+}
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}</style>
+
+
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+</style>

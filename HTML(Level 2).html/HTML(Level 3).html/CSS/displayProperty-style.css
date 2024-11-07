@@ -1,0 +1,25 @@
+/* h2{
+    display: inline;
+    background-color: pink;
+} 
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+span{
+    /* background-color: lime; */
+    border: 4px solid black ; 
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px; /* applied on left and right only  */
+
+} 
+div{
+    border: 4px solid black ; 
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px; 
+    
+}

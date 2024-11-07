@@ -1,0 +1,30 @@
+/* div p {
+    background-color: crimson;
+} 
+ .para{
+ background-color: black;
+}
+ p {
+    background-color: green;
+ }  */
+
+
+
+/* PQs2 part2 */
+ /* div.greetDiv .greet{
+    color: green;
+ }
+
+ .greetDiv p.greet {
+    color: blue;
+ }
+
+ .greetDiv .greet {
+    color: red;
+ } */
+
+ /* PseudoClass */
+ button:hover {
+    background: black;
+    color:white;
+ }
